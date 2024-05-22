@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "theme_settings",
+  "info": {
+    "singularName": "theme-setting",
+    "pluralName": "theme-settings",
+    "displayName": "ThemeSetting",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Theme": {
+      "type": "enumeration",
+      "enum": [
+        "Beige",
+        "Lemon",
+        "Sea",
+        "Dark"
+      ]
+    }
+  }
+}

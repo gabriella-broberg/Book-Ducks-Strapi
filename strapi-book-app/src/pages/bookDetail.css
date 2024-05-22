@@ -1,0 +1,90 @@
+.bookDetail{
+  margin-top: 150px;
+  margin-bottom: 150px;
+  padding: 30px;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+.bookDetail__top {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bookDetail__top img {
+  width: 100%;
+  max-width: 200px;
+  object-fit: contain;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.bookDetail__topDec {
+  text-align: left;
+  margin-top: 15px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.addToReadingList-button {
+  background-color: var(--accent-color-2);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  align-self: flex-start;
+}
+
+.addToReadingList-button:hover {
+  background-color: var(--accent-color-1);
+}
+
+.sourceLink {
+  text-decoration: none;
+  color: #483f3f;
+  border: 1px solid gray;
+  padding: 5px 15px;
+  width: fit-content;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.bookDetail__bottomDec {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.bookDetail__bottomDec ul li {
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+.bookDetail__authors {
+  color: #483f3f;
+}
+
+.bookDetail__bottomDec h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.bookDetail__bottomDec > p {
+  color: #483f3f;
+  line-height: 25px;
+}
+
+@media (max-width: 500px) {
+  .addToReadingList-button {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+}

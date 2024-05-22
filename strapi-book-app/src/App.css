@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* src/App.css */
+
+/* Definiera CSS-variabler på rot-elementet (html) */
+:root {
+  --primary-color: #ffffff; /* Vit */
+  --secondary-color: #f0f0f0; /* Mycket ljusgrå */
+}
+
+/* Beige theme */
+.App.beige {
+  --background-color: #F8F4ED; 
+  --hero-color: #F8F4ED;
+  --text-color: #4A4A4A; 
+  --header-color: rgba(248, 244, 237, 0.9);
+  --accent-color-1: #DCC7AA; 
+  --accent-color-2: #B38B6D; 
+}
+
+
+/* Lemon theme */
+.App.lemon {
+  --background-color: #FFFDE7;
+  --hero-color: #FFFDE7;
+  --text-color: #827717;
+  --header-color: rgba(255, 253, 231, 0.5);
+  --accent-color-1: #FFECB3;
+  --accent-color-2: #FFD54F;
+}
+
+
+
+/* Mörkt tema */
+.App.dark {
+  --background-color: #181818;
+  --text-color: #E0E0E0;
+  --header-color: #242424;
+  --accent-color-1: #BB86FC;
+  --accent-color-2: #03DAC6;
+}
+
+
+
+
+
+/* Havstema */
+.App.sea {
+  --background-color: #E0F7FA;
+  --hero-color: #E0F7FA;
+  --text-color: #006064;
+  --header-color: rgba(178, 235, 242, 0.5);
+  --accent-color-1: #00BCD4;
+  --accent-color-2: #0097A7;
+}
+

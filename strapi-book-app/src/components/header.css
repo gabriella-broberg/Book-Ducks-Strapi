@@ -1,0 +1,84 @@
+header{
+  width: 100%;
+  padding: 5px 0;
+  position: fixed;
+  top: 0;
+  background-color: var(--header-color);
+  backdrop-filter: blur(10px); /* Apply blur effect */
+  -webkit-backdrop-filter: blur(10px); /* For Safari support */
+  z-index: 1000; /* Ensure the header is above other elements */
+  
+}
+
+header .wrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; 
+
+}
+
+.logo{
+  flex: 1;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.logo h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  color: var(--text-color);
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+.logo img{
+  width: 50px;
+  height: 50px;
+}
+
+.login-button, .logout-button, .profile-button {
+  background-color: var(--accent-color-1);
+  border: none;
+  color: rgb(42, 42, 42);
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin-left: 10px;
+}
+
+.login-button:hover, .logout-button:hover, .profile-button:hover {
+  background-color: var(--accent-color-2);
+}
+
+header .search{
+  width: 100%;
+  background-color: white;
+}
+
+header .search input{       
+  height: 30px;
+}
+
+
+@media(min-width: 500px){
+
+  header{
+    padding: 15px 0 10px;
+  }
+
+  header .wrapper{
+    flex-direction: row;
+  }
+
+  .logo {
+    flex: 0.4;
+  } 
+
+  .logo h2 {
+    justify-content: unset;
+  }
+}
