@@ -1,6 +1,6 @@
 # Book Ducks
 
-A web application for a imaginary bookstore where users can browse, search for, and rate books. Administrators can upload new books and manage the site.
+Built with React and a Strapi backend, for the course "Interaction with CMS" during the "Frontend Development" program at Nackademin. A web application for a imaginary bookstore where users can browse, search for, and rate books. Administrators can upload new books and manage the site.
 
 
 ## Introduction
