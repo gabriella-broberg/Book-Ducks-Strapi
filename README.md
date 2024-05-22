@@ -21,7 +21,7 @@ Book Ducks is a full-stack application built with React for the frontend and Str
 
 ### Prerequisites
 - Node.js
-- npm or yarn
+- npm 
 
 ### Backend (Strapi)
 
