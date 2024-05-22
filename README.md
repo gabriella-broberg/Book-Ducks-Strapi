@@ -32,7 +32,6 @@ This project is based on [Strapi Book App](https://github.com/Tammibriggs/strapi
 
 Thank you Tammi Briggs for creating this project for the strapi.io blog! I learned a lot :)
 
-https://strapi.io/blog/build-a-book-app-with-infinite-scrolling-and-meilisearch-strapi-plugin-in-react
 
 ## Changes Made
 
