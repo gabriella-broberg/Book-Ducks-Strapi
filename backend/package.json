@@ -5,8 +5,7 @@
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
-      "postinstall": "npm install strapi -g",
-  "start": "cd backend && strapi start",
+    "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
   },
