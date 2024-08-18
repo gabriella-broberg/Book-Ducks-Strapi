@@ -1,5 +1,5 @@
 {
-  "name": "book-app-frontend",
+  "name": "strapi-book-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
