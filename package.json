@@ -28,8 +28,8 @@
     "uuid": "5423ecae-0dfb-43dd-b0b3-4b2698f2846f"
   },
   "engines": {
-    "node": "18.17.0",  // Specifik version som är stabil och kompatibel
-    "npm": "9.6.3"     // Den version som matchar node 18.17.0
+    "node": "18.17.0",  
+    "npm": "9.6.3"     
   },
   "license": "MIT"
 }
