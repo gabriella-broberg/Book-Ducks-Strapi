@@ -1,5 +1,5 @@
 {
-  "name": "book-ducks2",
+  "name": "backend",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -9,12 +9,11 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.24.2",
-    "@strapi/plugin-users-permissions": "4.24.2",
-    "@strapi/plugin-i18n": "4.24.2",
     "@strapi/plugin-cloud": "4.24.2",
+    "@strapi/plugin-i18n": "^4.16.2",
+    "@strapi/plugin-users-permissions": "^4.8.1",
+    "@strapi/strapi": "^4.15.5",
     "better-sqlite3": "8.6.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
@@ -28,8 +27,8 @@
     "uuid": "5423ecae-0dfb-43dd-b0b3-4b2698f2846f"
   },
   "engines": {
-    "node": "18.17.0",  
-    "npm": "9.6.3"     
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
   },
   "license": "MIT"
 }
