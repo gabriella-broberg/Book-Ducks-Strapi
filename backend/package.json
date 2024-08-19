@@ -14,6 +14,8 @@
     "@strapi/plugin-i18n": "^4.16.2",
     "@strapi/plugin-users-permissions": "^4.8.1",
     "@strapi/strapi": "^4.15.5",
+    "ajv": "^8.17.1",
+    "ajv-draft-04": "^1.0.0",
     "better-sqlite3": "8.6.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
@@ -27,7 +29,7 @@
     "uuid": "5423ecae-0dfb-43dd-b0b3-4b2698f2846f"
   },
   "engines": {
-    "node": ">=18.0.0 <=20.x.x",
+    "node": ">=18.0.0 <=20.12.2",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
