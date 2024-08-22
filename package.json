@@ -1,0 +1,11 @@
+{
+  "name": "book-ducks2",
+  "version": "1.0.0",
+  "description": "Built with React and a Strapi backend, for the course \"Interaction with CMS\" during the \"Frontend Development\" program at Nackademin.",
+  "main": "index.js",
+  "scripts": {
+       "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
